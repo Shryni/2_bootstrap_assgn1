@@ -1,0 +1,329 @@
+
+body
+{
+   margin:auto;
+   background-image: url("../images/body2.jpg");
+}
+
+#main
+{
+   background-color: #e7f9cf;
+   width: 100%
+}
+/*---------------NavBar
+--------------------------------------*/
+.navbar-fixed-top
+{
+ background-image:url("../images/head3.jpg");
+ height: 80px;
+}
+.navbar-responsive-collapse
+{
+   padding-top: 15px;
+   color: black;
+   font-family: 'Cherry Swash', cursive;
+   font-size: 15px;
+}
+.navbar .active
+{
+   padding: 0;  
+}
+.myHeader
+{
+   padding-top: 30px;
+   font-size: 40px;
+   text-shadow:3px 3px 10px black;
+   color: white;
+   font-family: 'Luckiest Guy', cursive;
+}
+.nav-collapse li{
+   font-size: 15px;
+}
+.navbar-nav 
+{
+   background-image:url("../images/head3.jpg");
+}
+#searchInput
+{
+   width: 250px;
+}
+
+
+
+
+
+
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+   .carousel-indicators
+   {
+      color: black;
+   }
+   .carousel-caption
+   {
+      font-size: 24px;
+      color: black;
+      font-size: 16px;
+      color: #bdd0ef;
+
+   }
+
+   .carousel-control
+   {
+      color: black;
+   }
+   #mycarousel img{
+      padding-top: 80px;
+      width: 100%;
+
+   }
+   .caption h3
+   {
+      text-decoration: underline;
+      font-family: 'Arima Madurai', cursive;
+      box-shadow: 1px 3px 3px grey;
+   }
+/*------------------------
+end of crousel
+----------------------------------*/
+/*------------------------------
+features heading
+--------------------------------*/
+
+#featuresHeading 
+{
+   font-family: 'Montserrat', sans-serif;
+   text-decoration: underline;
+}
+/*------------------------------
+features heading
+--------------------------------*/
+
+
+/*-----------------------
+panel 
+----------------------------*/
+
+.panel{
+   border:1px solid black;
+   box-shadow: 5px 10px 10px #02388e;
+}
+.panel p{
+   padding-top: 15px;
+   font-family: 'Arima Madurai', cursive;
+}
+.panel-heading h3
+{
+   font-family: 'Nunito', sans-serif;
+   text-decoration: underline;
+   font-weight: bold;
+   font-size: 20px;
+}
+
+
+
+/*-----------------------
+ end panel 
+ ----------------------------*/
+
+/*-----------------------------
+tabbable
+---------------------*/
+#subjects_students h4
+{
+   font-family: 'Frank Ruhl Libre', sans-serif;
+   font-weight: bold;
+   font-size: 30px;
+   padding-top: 30px;
+
+
+}
+
+
+
+#subjects_students {
+   background-color: #dadfe8;
+}
+
+
+#students h4
+{
+   font-family: 'Merriweather', serif;
+}
+
+
+.tab-pane
+{
+   font-style: italic;
+   font-size: 20px;
+   margin:20px 80px;
+   text-align: center;
+}
+.tabbable
+{
+   border:1px solid black;
+   box-shadow: 3px 5px 5px #d3101d;
+}
+#students p
+{
+ font-family: 'Old Standard TT', serif;
+ font-size: 15px; 
+}
+.list-group-item
+
+{
+   border: 1px solid black;
+   box-shadow: 2px 4px 3px #f9d73e;
+}
+
+
+/*-----------------------------
+ end tabbable
+ ---------------------*/
+
+
+
+ .thumbnail
+ {
+   padding-left: 30px;
+}
+
+.route
+{
+   padding-top: 30px;
+}
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   
+
+   
+   
+
+   
+
+   
+   
+
+
+
+
+   
+   .list-group img{
+      height:100px;
+      width:100px;
+   }
+   
+   
+
+   .thumbnail img{
+      height: 300px;
+      width:500px;
+   }
+
+/* --------------------------------------
+   footer
+   -------------------------------------- */
+   footer .container
+   {
+      background-color: #6a7587;
+   }
+
+   .wds-global-footer__links-list li
+   {
+      display: inline;
+      padding-left: 10px;
+      padding-right: 10px;
+
+   }
+/* --------------------------------------
+    end footer
+    -------------------------------------- */
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+   /* Portrait & landscape phone */
+   @media (min-width: 10px) 
+   {
+      .carousel-caption
+      {
+         font-size: 15px;
+         font-family: 'Ubuntu', sans-serif;
+         text-shadow: 3px 3px 10px black;
+         color: white;
+         background: black;
+         opacity: .7;
+         box-shadow: 0px 0px 10px black;
+         margin-bottom: 20px;
+         padding: 10px;
+         border-radius: 100px ;
+      }
+
+      .panel-image
+      {
+         width: 200px;
+         height: 270px;
+      }
+
+
+   }
+   @media (min-width: 480px) 
+   {
+      .carousel-caption
+      {
+         font-size: 20px;
+         font-family: 'Ubuntu', sans-serif;
+         text-shadow: 3px 3px 10px black;
+         color: white;
+         background: black;
+         opacity: .7;
+         box-shadow: 0px 0px 10px black;
+         margin-bottom: 20px;
+         padding: 10px;
+         border-radius: 100px ;
+      }  
+
+      .panel-image
+      {
+         width: 320px;
+         height: 420px;
+         padding-bottom: 18px;
+      }
+   }
+   @media (min-width: 768px) 
+   {
+      .carousel-caption
+      {
+         font-size: 30px;
+         font-family: 'Ubuntu', sans-serif;
+         text-shadow: 3px 3px 10px black;
+         color: white;
+         background: black;
+         opacity: .7;
+         box-shadow: 0px 0px 10px black;
+         margin-bottom: 20px;
+         padding: 10px;
+         border-radius: 100px ;
+      }
+
+
+   }
