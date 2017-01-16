@@ -1,7 +1,7 @@
 
    body
    {
-      margin:auto;
+      margin-right: 0;
       background-image: url("../images/body2.jpg");
    }
 
@@ -174,7 +174,7 @@
    #students p
    {
     font-family: 'Old Standard TT', serif;
-    font-size: 15px; 
+    font-size: 10px; 
    }
    .list-group-item
 
@@ -190,10 +190,7 @@
 
 
 
-    .thumbnail
-    {
-      padding-left: 30px;
-   }
+    
 
    .route
    {
@@ -257,6 +254,7 @@
          padding-right: 10px;
 
       }
+      
    /* --------------------------------------
        end footer
        -------------------------------------- */
